@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" href="css/style.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>To do list</title>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="js/main.js"></script>
+</head>
+<body>
+  <header>
+    To do list
+  </header>
+  <div class="main">
+    <button class="show-input">+</button>
+    <form class="task hidden">
+      <input type="text" id="task-to-do" maxlength="65" placeholder="Task to do...">
+      <input type="submit" id='submit' value="+">
+    </form>
+    <ul>
+      <li>Buy milk<button class="close">clear</button></li>
+      <li>Wash dishes<button class="close">clear</button></li>
+      <li>Cook dinner<button class="close">clear</button></li>
+    </ul>
+    <footer>
+      by <a href="http://github.com/ppasciak">Paweł Paściak</a>
+    </footer>
+  </div>
+
+</body>
+
+</html>
